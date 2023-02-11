@@ -1,0 +1,30 @@
+.navMain{
+    display: flex;
+    flex-direction: row;
+    background-color: beige;
+    padding: 5px;
+    position: relative;
+}
+
+.tokens{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-decoration: none;
+    /* border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgb(112, 245, 176); */
+    margin: 5px;
+    padding: 10px;
+    transition-duration: 0.25s;
+    transition-timing-function: ease;
+}
+.tokens:hover {
+    color: brown;
+    background-color: aquamarine;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    /* transition-property: background-color,  width, height, ;
+    transition-duration: 1s;
+    transition-timing-function: linear; */
+}

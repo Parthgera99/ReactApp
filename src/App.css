@@ -1,0 +1,120 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.blank{
+  border: 2px solid blueviolet;
+  background-color: hsl(300, 43%, 22%);
+  margin: 5vw;
+  margin-top: 35vw;
+}
+
+.notchanged{
+  margin-left: auto;
+  margin-right: auto;
+  width: 10vw;
+  padding: 5vw;
+  height:20vw;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 3px;
+  position: relative;
+  
+  transition-property: background-color, width, height;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.changed{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50vw;
+  padding: 5vw;
+  height:20vw;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 3px;
+  position: relative;
+  
+  transition-property: background-color, width, height;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.buttonClass{
+  border: 2px solid hsl(300, 25%, 34%);
+  background-color: rgb(226, 65, 151);
+  border-radius: 30vw;
+  position: absolute;
+  bottom: 50px;
+  width: 10vw;
+  border-radius: 3px;
+}
+
+.hide{
+  /* visibility: hidden; */
+  opacity: 0;
+}
+
+.unhide{
+  /* visibility: visible; */
+  margin-left: 20px;
+  opacity: 1;
+  color: hsl(300, 26%, 59%);
+  position: absolute;
+  right: 80px;
+  left: 280px;
+  transition-property: opacity ;
+  transition-duration: 3s;
+}
+
+.pic{
+  height: 120px;
+  position: absolute;
+  top: 100px;
+  left: 91px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30%;
+}
+
+@media  (max-width:1000px)  {
+  .blank{
+    opacity: 0;
+  }
+}
