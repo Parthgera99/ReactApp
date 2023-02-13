@@ -1,0 +1,79 @@
+.header .firstSection{
+    margin: 0;
+}
+
+.header{
+    position: static;
+    width: 100%;
+}
+.firstSection{
+    width: 100%;
+    margin-top: -0.25vw;
+    display: flex;
+    flex-direction: row;
+}
+.secondSection{
+    width: 100%;
+    margin-top: -0.25vw;
+    display: flex;
+    flex-direction: row;
+}
+.thirdSection{
+    width: 100%;
+    /* margin-top: -0.25vw; */
+    display: flex;
+    flex-direction: row;
+}
+.fourthSection{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftFirst{
+    width: 50%;
+}
+.egg{
+    width: 50%;
+}
+.rightSecond{
+    width: 50%;
+    /* margin-bottom: -0.25vw; */
+}
+.glass{
+    /* margin-bottom: -0.25vw; */
+    width: 50%;
+}
+.cherry{
+    width: 50%;
+}
+.orange{
+    width: 50%;
+}
+.leftThird{
+    width: 50%;
+}
+.rightThird{
+    width: 50%;
+}
+.textDiv{
+    display: flex;
+    flex-direction: row;
+}
+.headings{
+    text-align: center;
+    margin-top: -15vw;
+    font-size: 2em;
+}
+.para{
+    font-size: 1em;
+    text-align: center;
+    margin-right: 13vw;
+    margin-left: 13vw;
+}
+.graphic{
+    color: rgb(17, 117, 69);
+}
+.photo{
+    color: rgb(10, 102, 164);
+}

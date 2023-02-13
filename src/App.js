@@ -2,8 +2,10 @@
 import './App.css';
 import React,{useState} from "react";
 // import Main from './components/Main';
-import Template from './components/Template';
+// import Template from './components/Template';
 import hexadev from './hexadev.png'
+// import LandingPage from './components/landingPage'
+import Landing2 from './components/landing2'
 
 function App() {
   const [width, setWidth] = useState("notchanged")
@@ -17,7 +19,9 @@ function App() {
   return (
     <>
     {/* <Main/> */}
-    <Template/>
+    {/* <Template/> */}
+    {/* <LandingPage/> */}
+    <Landing2/>
     < div className={`blank  ${width ? "notchanged" : "changed"}`}>
       <div>
         <p  className={`${hide ? "hide" : "unhide"}`} >This Website has been developed by Team HexaDev. Team Members are Parth Gera, Kshitij, Raghav Dua, Kavyam Sachdeva, Ranveer Singh and Anand Chauhan. This is a project made for hackathon managed by Sandbox.</p>
