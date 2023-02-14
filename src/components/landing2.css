@@ -77,3 +77,218 @@
 .photo{
     color: rgb(10, 102, 164);
 }
+
+.leftHead{
+    font-size: 3rem;
+    color: rgb(13, 15, 54);
+    margin-left: 12vw;
+    margin-right: 8vw;
+    margin-top: 10vw;
+    margin-bottom: 2.5vw;
+    font-family: Noto Serif ,  Serif;
+}
+.leftPara{
+    color: rgb(105, 107, 107);
+    font-size: 1.25rem;
+    line-height: 2vw;
+    margin-left: 12vw;
+    margin-right: 8vw;
+    margin-bottom: 2.5vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+.learnMore{
+    font-size: 1.5rem;
+    margin-left: 12vw;
+    margin-right: 8vw;
+    margin-bottom: 5vw;
+    font-family: fraunces;
+    text-decoration: underline rgb(244, 244, 160) ;
+}
+.fourthSection{
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+}
+.clientHeading{
+    margin: 10vw;
+    margin-bottom: 0;
+    font-family: fraunces;
+    color: rgb(68, 68, 68);
+    font-size: 2vw;
+    text-align: center;
+}
+.testimonials{
+    width: 20%;
+}
+.firstTestimonial{
+    margin-left: 12vw;
+    margin-right: 3vw;
+}
+.thirdTestimonial{
+    margin-left: 3vw;
+    margin-right: 12vw;
+}
+.representers{
+    border-radius: 5vw;
+    width: 5vw;
+}
+.mainDiv{
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    margin-top: -10vw;
+    background-color: rgb(247, 244, 239);
+}
+.bakwaas{
+    font-style: fraunces;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    font-size: 1.1em;
+    color: rgb(114, 116, 116);
+}
+.Names{
+    color: black;
+    margin-bottom: 0;
+    font-family: barlow;
+    font-size: 1.5rem;
+}
+.post{
+    color: rgb(170, 165, 157);
+    font-size: 1rem;
+    font-family: barlow;
+    
+}
+.fifthSection{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.lastPics{
+    width: 25%;
+}
+.sixthSection{
+    width: 100%;
+    margin-top: -1.5vw;
+    text-align: center;
+    height: 45vh;
+    background-color: rgb(138, 232, 204);
+}
+.lastHead{
+    padding-top: 4vw;
+    font-family: fraunces;
+    color: rgb(20, 128, 108) ;
+}
+.bottomNav{
+    display: flex;
+    flex-direction: row;
+    margin-left: 38%;
+    margin-right: 35%;
+}
+.navItems{
+    margin-left: 2vw;
+    font-family: fraunces;
+    font-size: 1.1rem;
+    margin-right: 2vw;
+    margin-bottom: 5vw;
+    margin-top: 1.5vw;
+    color: rgb(20, 128, 108);
+}
+.minorItem{
+    margin-left:1.5vw;
+    margin-right: 1.5vw;
+}
+.navBar{
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+}
+.mainItem{
+    margin-top: 2vw;
+    padding-top: 1vw;
+    margin-left: 3vw;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 2vw;
+    /* padding: 1vw; */
+    font-family: fraunces;
+    text-align: center;
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+.mainItem:hover{
+    /* background-color: white; */
+    color: rgb(24, 8, 114);
+    transition-property: background-color, color , width, height;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+.mainItem:not(:hover){
+    transition-duration: 0.2s;
+}
+.SideItem{
+    margin-top: 2vw;
+    cursor: pointer;
+    font-size: 1.4rem;
+    color: rgb(255, 255, 255);
+    border-radius: 2vw;
+    padding: 1vw;
+    font-family: fraunces;
+    text-align: center;
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+.SideItem:hover{
+    background-color: rgb(8, 174, 245);
+    /* color: black; */
+    transition-property: background-color, width, height;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+.SideItem:not(:hover){
+    transition-duration: 0.2s;
+}
+.leftItemsnav{
+    text-align: center;
+    position: fixed;
+    right: 3vw;
+    display: flex;
+    flex-direction: row;
+}
+.h1pareshani{
+    margin: 0;
+}
+.navItems{
+    cursor: pointer;
+}
+.navItems:hover{
+    color: white;
+    transition-property: color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+}
+.navItems:not(:hover){
+    transition-property: color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+.minorItem{
+    cursor: pointer;
+}
+.pageHead{
+    position: absolute;
+    top: 10vw;
+    color: white;
+    font-size: 2rem;
+    font-family: fraunces;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.arrow{
+    position: absolute;
+    top: 25vw;
+    left: 48.5vw;
+}
+
