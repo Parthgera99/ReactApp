@@ -1,0 +1,24 @@
+.mainService{
+    border-radius: 5vw;
+    width: 40vw;
+    height: 40vh;
+    background-color: white;
+    text-align: center;
+    position: fixed;
+    top: 25vw;
+    right: 5%;
+    transform: translate(5%, 0);
+}
+.paraService{
+    margin: 2vw;
+}
+.readBtn{
+    background-color: rgb(228, 103, 103);
+    border-radius: 3vw;
+    padding: 1vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    display: inline;
+    cursor: pointer;
+    margin-right: 2vw;
+}

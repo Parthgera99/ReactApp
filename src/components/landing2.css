@@ -170,6 +170,7 @@
 .sixthSection{
     width: 100%;
     margin-top: -1.5vw;
+    margin-bottom: 10vw;
     text-align: center;
     height: 45vh;
     background-color: rgb(138, 232, 204);
@@ -291,4 +292,5 @@
     top: 25vw;
     left: 48.5vw;
 }
+
 
