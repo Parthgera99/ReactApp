@@ -1,4 +1,4 @@
-import React from 'react'
+import React , {useState} from 'react'
 import './landing2.css'
 import header from './desktop/image-header.jpg'
 import egg from './desktop/image-transform.jpg'
@@ -12,8 +12,21 @@ import cone from './desktop/image-gallery-cone.jpg'
 import bottle from './desktop/image-gallery-milkbottles.jpg'
 import orange2 from './desktop/image-gallery-orange.jpg'
 import cubes from './desktop/image-gallery-sugarcubes.jpg'
+// import Services from './Services'
+
 
 export default function landing2() {
+
+    const [add, setAdd] = useState('unActive')
+
+    const addComponent=()=>{
+        setAdd('active')
+    }
+    const removeComponent=()=>{
+        setAdd('unActive')
+    }
+
+
   return (
     <>
     <img className='header' src={header} alt='header'/>
@@ -94,7 +107,7 @@ export default function landing2() {
         <div className='navbarItem mainItem'><h1 className='h1pareshani'>Sunny Side</h1></div>
         <div className='leftItemsnav'>
             <div className='navbarItem SideItem'>About</div>
-            <div className='navbarItem SideItem'>Services</div>
+            <div className='navbarItem SideItem' onClick={addComponent}>Services</div>
             <div className='navbarItem SideItem'>Projects</div>
             <div className='navbarItem SideItem'>Contact</div>
         </div>
@@ -103,6 +116,18 @@ export default function landing2() {
         <h1>WE ARE CREATIVES</h1>
     </div>
     <svg className='arrow' width="36" height="114" xmlns="http://www.w3.org/2000/svg"><g stroke="#FFF" stroke-width="6" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3v100M3 95.484l15 15 15-15"/></g></svg>
+    
+    <div className={add}>
+        <h1 className='headingService'>This is Service Section.</h1>
+        <p className='paraService'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus optio officiis nulla doloribus non laborum ullam deleniti illum! Libero eius placeat maiores deserunt aliquam at laborum officia architecto. Ipsa natus nostrum veritatis ullam possimus necessitatibus sint, quia consequuntur earum qui, quidem aperiam. Corporis porro harum in deserunt libero odit consequuntur.</p>
+        {/* <div className='readBtn'>
+            More
+        </div> */}
+        <div className='readBtn' onClick={removeComponent} >
+            Close
+        </div>
+    </div>
+    
     </>
   )
 }

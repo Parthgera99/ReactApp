@@ -221,7 +221,7 @@
 }
 .mainItem:hover{
     /* background-color: white; */
-    color: rgb(24, 8, 114);
+    color: rgb(240, 237, 36);
     transition-property: background-color, color , width, height;
     transition-duration: 0.5s;
     transition-timing-function: ease;
@@ -291,6 +291,52 @@
     position: absolute;
     top: 25vw;
     left: 48.5vw;
+}
+.active{
+    border-radius: 5vw;
+    width: 40vw;
+    height: 40vh;
+    color: white;
+    background-color:rgb(8, 174, 245);
+    text-align: center;
+    position: fixed;
+    top: 25vw;
+    right: 5%;
+    transform: translate(5%, 0);
+    
+    transition-property: background-color, width, height , right ,  top , left;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+.unActive{
+    position: fixed;
+    right: -40vw;
+    border-radius: 5vw;
+    width: 40vw;
+    height: 40vh;
+    color: white;
+    background-color: rgb(28, 119, 158);
+    text-align: center;
+    top: 25vw;
+    transform: translate(5%, 0);
+
+    transition-property: background-color, width, height , right ,  top , left;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+.paraService{
+    margin: 2vw;
+}
+.readBtn{
+    background-color: rgb(240, 237, 36);
+    color: black;
+    border-radius: 3vw;
+    padding: 1vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    display: inline;
+    cursor: pointer;
+    margin-right: 2vw;
 }
 
 
