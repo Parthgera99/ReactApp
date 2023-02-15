@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ReactApp/static/css/main.4fb24c9a.css",
+    "main.js": "/ReactApp/static/js/main.4d91211b.js",
+    "static/js/787.5f6d5af3.chunk.js": "/ReactApp/static/js/787.5f6d5af3.chunk.js",
+    "static/media/image-header.jpg": "/ReactApp/static/media/image-header.49b52ffa54752cb7c2d0.jpg",
+    "static/media/image-gallery-milkbottles.jpg": "/ReactApp/static/media/image-gallery-milkbottles.df1d9d8460e873924250.jpg",
+    "static/media/image-gallery-sugarcubes.jpg": "/ReactApp/static/media/image-gallery-sugarcubes.09b72f4fbfbf08579f9d.jpg",
+    "static/media/image-gallery-orange.jpg": "/ReactApp/static/media/image-gallery-orange.49f4212bc650862672a7.jpg",
+    "static/media/image-gallery-cone.jpg": "/ReactApp/static/media/image-gallery-cone.461ff4214c3ac822dfff.jpg",
+    "static/media/image-graphic-design.jpg": "/ReactApp/static/media/image-graphic-design.7ac8bdf0d3df29591a3b.jpg",
+    "static/media/image-photography.jpg": "/ReactApp/static/media/image-photography.104cf40b52f66520afb0.jpg",
+    "index.html": "/ReactApp/index.html",
+    "main.4fb24c9a.css.map": "/ReactApp/static/css/main.4fb24c9a.css.map",
+    "main.4d91211b.js.map": "/ReactApp/static/js/main.4d91211b.js.map",
+    "787.5f6d5af3.chunk.js.map": "/ReactApp/static/js/787.5f6d5af3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fb24c9a.css",
+    "static/js/main.4d91211b.js"
+  ]
+}
